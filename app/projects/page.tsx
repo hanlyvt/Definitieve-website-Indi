@@ -123,8 +123,9 @@ export default function Projects() {
         {/* Projects grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
           {filteredProjects.map((project) => (
-            <div
+            <Link
               key={project.id}
+              href={`/projects/${project.id}`}
               className="group relative aspect-square overflow-hidden bg-gray-100"
             >
               <Image
@@ -137,7 +138,7 @@ export default function Projects() {
                 <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
                 <p className="text-sm">Project #{project.id}</p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 

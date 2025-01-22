@@ -25,7 +25,7 @@ export default function ParallaxImage({
       }`}
     >
       <Link
-        href="/project"
+        href="/projects"
         className={`image-container inline-block ${
           isEven ? "ml-auto" : "mr-auto"
         }`}
