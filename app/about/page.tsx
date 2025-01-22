@@ -97,6 +97,47 @@ export default function About() {
             priority
           />
         </div>
+
+        {/* Essence Section */}
+        <div className="mb-24 mt-8">
+          <div className="relative w-8/12 aspect-[30/10] mb-16">
+            <Image
+              src="/placeholder.svg?height=900&width=1900"
+              alt="Bridge at sunset"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-5xl mx-auto">
+            <div className="space-y-8">
+              <p className="text-sm">
+                Na een opleiding aan een vooraanstaande designacademie werd een
+                eigen studio opgericht, waar wordt samengewerkt met
+                ambachtslieden uit verschillende delen van de wereld. De
+                ontwerpen streven naar een sfeer van rust en harmonie, waarbij
+                natuurlijke esthetiek en duurzaamheid centraal staan. De
+                creaties zijn te vinden in galerieën, luxe interieurs en
+                bekroonde architectonische projecten wereldwijd.
+              </p>
+              <Link
+                href="#"
+                className="inline-block text-base hover:opacity-70"
+              >
+                Quote of een zin
+              </Link>
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold leading-tight">
+                Essence
+                <br />
+                of
+                <br />
+                elegance.
+              </h2>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );
