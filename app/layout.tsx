@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter, Montserrat } from "next/font/google";
 import Link from "next/link";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400"] });
@@ -43,6 +44,7 @@ export default function RootLayout({
           </ul>
         </nav>
         {children}
+        <Footer />
       </body>
     </html>
   );
