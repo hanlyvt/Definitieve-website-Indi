@@ -21,9 +21,9 @@ export default function About() {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-          <div className="relative aspect-[3/4] w-full">
+          <div className="relative h-auto w-full">
             <Image
-              src="/images/Glass4.jpg?height=800&width=600"
+              src="/images/Glass4.jpg?height=600&width=400"
               alt="About Me"
               fill
               className="object-cover"
@@ -32,7 +32,7 @@ export default function About() {
           </div>
 
           <div className="space-y-8">
-            <div className="space-y-4 text-lg">
+            <div className="space-y-4 text-sm">
               <p>
                 De designer staat bekend om een unieke benadering van interieur
                 en productontwerp.
@@ -51,7 +51,7 @@ export default function About() {
 
             <Link
               href="/projects"
-              className="inline-block text-lg hover:opacity-70"
+              className="inline-block text-base font-bold hover:opacity-70"
             >
               Zie meer projecten
             </Link>
