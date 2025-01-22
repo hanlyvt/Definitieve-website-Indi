@@ -35,8 +35,8 @@ export default function ParallaxImage({
         <Image
           src={src || "/placeholder.svg"}
           alt={alt}
-          width={450}
-          height={310}
+          width={350}
+          height={210}
           className="rounded-lg shadow-xl"
           priority
         />
