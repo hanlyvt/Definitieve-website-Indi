@@ -231,6 +231,27 @@ export default function About() {
           </div>
         </div>
       </div>
+      <div className="bg-gray-100 m-12 p-8">
+        <div className="max-w-7xl mx-auto px-12">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+            <div className="space-y-4 max-w-2xl">
+              <h2 className="text-2xl font-bold">
+                Let's create something amazing
+              </h2>
+              <p className="text-sm">
+                Ready to bring your vision to life? Get in touch and let's start
+                a conversation about your next project.
+              </p>
+            </div>
+            <Link
+              href="/contact"
+              className="bg-black font-bold text-white px-6 py-3 rounded-md hover:bg-black/90 transition-colors"
+            >
+              Get in Touch
+            </Link>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
