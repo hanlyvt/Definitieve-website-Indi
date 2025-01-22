@@ -1,8 +1,9 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Montserrat } from "next/font/google";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata = {
   title: "Indi Janssen",

@@ -1,7 +1,13 @@
 "use client";
 
+import { Montserrat } from "@next/font/google";
 import InfiniteCarousel from "../components/InfiniteCarousel";
 import Image from "next/image";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 const images = [
   { src: "/images/Bloem1.jpg?height=310&width=400", alt: "Image 1" },
@@ -16,8 +22,8 @@ export default function Home() {
       <h1 className="fixed inset-0 flex items-center justify-center text-[128px] leading-none font-bold text-black z-20 pointer-events-none">
         Indi Janssen
       </h1>
-      <div className="absolute top-12 left-12 z-30">
-        <h2 className="text-base">Designer-Model-Artist</h2>
+      <div className={`absolute top-12 left-12 z-30 ${montserrat.className}`}>
+        <h2 className="text-base font-normal">Designer-Model-Artist</h2>
       </div>
       <InfiniteCarousel images={images} />
     </main>
