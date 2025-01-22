@@ -3,9 +3,25 @@
 @tailwind utilities;
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .pointer-events-none {
   pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 64px !important;
+  }
+}
+
+.parallax-item {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.parallax-item:nth-child(even) {
+  justify-content: flex-end;
 }
