@@ -109,7 +109,7 @@ export default function Projects() {
             <button
               key={category}
               onClick={() => setFilter(category as typeof filter)}
-              className={`px-6 py-2 rounded-full text-sm ${
+              className={`px-6 py-2 text-sm ${
                 filter === category
                   ? "bg-black text-white"
                   : "bg-gray-100 text-black hover:bg-gray-200"
