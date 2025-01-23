@@ -17,14 +17,14 @@ type Project = {
 
 const projects: Project[] = [
   {
-    id: 1,
+    id: 2,
     image: "images/Bloem2.jpg",
     category: "design",
     alt: "Design project with typography",
     title: "Floral Framework",
   },
   {
-    id: 2,
+    id: 1,
     image: "images/Flaw2.jpg",
     category: "art",
     alt: "Floral arrangement in vase",
