@@ -109,7 +109,7 @@ export default function Projects() {
             <button
               key={category}
               onClick={() => setFilter(category as typeof filter)}
-              className={`px-6 py-2  text-sm ${
+              className={`px-6 py-2 rounded-full text-sm ${
                 filter === category
                   ? "bg-black text-white"
                   : "bg-gray-100 text-black hover:bg-gray-200"
@@ -126,7 +126,7 @@ export default function Projects() {
             <Link
               key={project.id}
               href={`/projects/${project.id}`}
-              className="group relative aspect-square overflow-hidden bg-gray-100"
+              className="block group relative aspect-square overflow-hidden bg-gray-100"
             >
               <Image
                 src={project.image || "/placeholder.svg"}
