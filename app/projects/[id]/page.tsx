@@ -14,10 +14,8 @@ const projects = [
     goal: "Met Flawed Perfection willen we een dialoog openen over de betekenis van schoonheid en de rol die imperfectie daarin speelt. Het project is een uitnodiging om anders te denken, te voelen en te creëren – en daarmee te vieren wat ons uniek maakt.",
     collection:
       "Ontdek de volledige collectie en laat je inspireren door een visuele reis die imperfectie transformeert tot iets moois. Elk ontwerp is een statement en een verhaal op zich.",
-    image1:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VIp2M7FohJjCZlArF6kFbLB4GA2glx.png",
-    image2:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VIp2M7FohJjCZlArF6kFbLB4GA2glx.png",
+    image1: "/images/Flaw1.jpg",
+    image2: "/images/Flaw2.jpg",
   },
   {
     id: 2,
