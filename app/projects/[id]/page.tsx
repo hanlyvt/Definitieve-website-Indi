@@ -43,7 +43,7 @@ export default function ProjectDetail() {
           </div>
           <div className="relative aspect-[3/4]">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VIp2M7FohJjCZlArF6kFbLB4GA2glx.png"
+              src="images/Flaw1.jpg"
               alt="Framed artwork from Flawed Perfection project"
               fill
               className="object-cover"
@@ -75,7 +75,7 @@ export default function ProjectDetail() {
         {/* Full width image */}
         <div className="relative w-full aspect-video mb-24">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VIp2M7FohJjCZlArF6kFbLB4GA2glx.png"
+            src="images/Flaw2.jpg"
             alt="Collection of FLAW typography prints"
             fill
             className="object-cover"
